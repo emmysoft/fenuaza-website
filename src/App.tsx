@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Footer from './sections/Footer';
 import Header from './sections/Header';
 import About from './sections/About';
+import Market from './sections/Market';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Header/>
       <About/>
+      <Market/>
       <Footer/>
     </div>
   );
