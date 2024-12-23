@@ -26,3 +26,20 @@ export const marketData = [
 ]
 
 
+export const contactData = [
+    {
+        img: '/icons/mail.png',
+        title: 'Mail Adress:',
+        text: 'Fenuazaintegratedserviceslimited@gmail.com'
+    },
+    {
+        img: '/icons/phone.png',
+        title: 'Phone No:',
+        text: '(+234) 7038 996 525'
+    },
+    {
+        img: '/icons/map.png',
+        title: 'Office Adress',
+        text: '1219 Rudolph  street , calumet city , 60409 , Illinois USA'
+    },
+]

@@ -4,6 +4,7 @@ import Footer from './sections/Footer';
 import Header from './sections/Header';
 import About from './sections/About';
 import Market from './sections/Market';
+import Contact from './sections/Contact';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header/>
       <About/>
       <Market/>
+      <Contact/>
       <Footer/>
     </div>
   );
