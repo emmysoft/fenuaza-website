@@ -5,6 +5,7 @@ import Header from './sections/Header';
 import About from './sections/About';
 import Market from './sections/Market';
 import Contact from './sections/Contact';
+import Project from './sections/Project';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <About/>
       <Market/>
+      <Project/>
       <Contact/>
       <Footer/>
     </div>

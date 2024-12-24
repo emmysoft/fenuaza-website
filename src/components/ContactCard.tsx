@@ -9,7 +9,7 @@ type cType = {
 
 const ContactCard:FC<cType> = ({ img, title, text }) => {
   return (
-    <div className='flex gap-4 w-[37%]'>
+    <div className='flex w-full gap-4 md:w-[37%] my-[14px]'>
         <img src={img} alt="" className="h-[40px] w-[40px]" />
 
         <div className="flex flex-col">

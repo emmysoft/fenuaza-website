@@ -18,8 +18,13 @@ import pic13 from '../assets/img/pic13.png'
 import pic14 from '../assets/img/pic14.png'
 import pic15 from '../assets/img/pic15.png'
 import cover1 from '../assets/img/cover1.png';
-import cover3 from '../assets/img/cover3.png'
-import cover2 from '../assets/img/cover2.png'
+// import cover3 from '../assets/img/cover3.png'
+import cover2 from '../assets/img/cover2.png';
+import paint from '../assets/img/paint.png';
+import header from '../assets/img/cover1.jpeg';
+import header2 from '../assets/img/cover2.jpeg'
+
+
 
 export {
     home1,
@@ -43,5 +48,9 @@ export {
     pic9,
     cover1,
     cover2,
-    cover3
+    paint,
+    header,
+    header2
+
+    // cover3
 }

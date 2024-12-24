@@ -1,4 +1,7 @@
 import React from 'react'
+import { paint, pic11,  } from '../constant/images'
+
+
 
 const About = () => {
   return (
@@ -10,7 +13,7 @@ const About = () => {
 
       <div className="flex items-center gap-[100px] p-5 flex-col md:flex-row">
         <div className="flex-1 flex justify-center">
-          <img src="/img/home3.png" alt="" className="h-[269px] w-[270px] lg:w-[350px] rounded-lg" />
+          <img src={paint} alt="" className="h-[269px] w-[270px] lg:w-[350px] rounded-lg" />
         </div>
 
         <div className="flex-1 w-[300px] flex flex-col bg-White p-3 rounded-lg h-[268px] gap-[50px] justify-center shadow-sm">
@@ -22,7 +25,7 @@ const About = () => {
 
       <div className="flex flex-col items-center gap-[100px] p-5 md:flex-row-reverse">
         <div className="flex-1 flex justify-center">
-          <img src="/img/home3.png" alt="" className="h-[269px] w-[270px] lg:w-[350px] rounded-lg" />
+          <img src={pic11} alt="" className="h-[269px] w-[270px] lg:w-[350px] rounded-lg" />
         </div>
 
         <div className="flex-1 w-[300px] flex flex-col bg-White p-4 rounded-lg h-[268px] gap-[50px] justify-center mx-auto shadow-sm">
