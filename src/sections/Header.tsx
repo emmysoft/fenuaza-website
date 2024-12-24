@@ -1,5 +1,5 @@
 import React from 'react';
-// import Home1 from './home1.png'
+import { pic, header2, paint }from '../constant/images'
 
 
 
@@ -14,12 +14,12 @@ const Header = () => {
 
           <div className="flex items-center bg-White text-Blue gap-2 p-3 rounded-md shadow-sm cursor-pointer hover:scale-125">
             <span className="text-2xl font-extrabold">Call Now!</span>
-            <img src="/img/call.gif" alt="" className="h-9 w-9" />
+            <img src={pic} alt="" className="h-9 w-9 rounded-full" />
           </div>
         </div>
         <div className="hidden flex-1 lg:flex justify-center relative mb-3 mt-5 ">
-          <img src="/img/home1.png" alt="" className="rounded-xl h-[219px] w-[200px] lg:h-[319px] lg:w-[300px] shadow-2xl" />
-          <img src="/img/home2.png" alt="" className="absolute rounded-xl h-[219px] w-[200px] lg:h-[319px] lg:w-[300px] translate-y-[40%] translate-x-[40%]" />
+          <img src={paint} alt="" className="rounded-xl h-[219px] w-[200px] lg:h-[319px] lg:w-[400px] shadow-2xl object-cover" />
+          <img src={header2} alt="" className="absolute rounded-xl h-[219px] w-[200px] lg:h-[319px] lg:w-[300px] translate-y-[40%] translate-x-[40%] object-cover" />
         </div>
     </div>
   )

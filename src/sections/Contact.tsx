@@ -27,7 +27,7 @@ const Contact = () => {
 
 
                 <div className="flex flex-col gap-[25px]">
-                    <div className="flex flex-col lg:flex-row gap-4 items-center">
+                    <div className="flex flex-col lg:flex-row gap-[16px] items-center">
                         <input type="email" className="w-[330px] lg:w-[250px] outline-none h-[48px] bg-White p-4 placeholder:font-[500]" placeholder='Mail Address'/>
                         <input type="tel" className="w-[330px] lg:w-[250px] outline-none h-[48px] bg-White p-4 placeholder:font-[500]" placeholder='Phone No.'/>
                     </div>
