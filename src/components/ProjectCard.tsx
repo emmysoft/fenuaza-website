@@ -1,13 +1,14 @@
-import React from 'react';
-import { pic11 } from '../constant/images';
+import React, { FC } from 'react';
 
 
+type ICard = {
+  src: any
+}
 
-const ProjectCard = () => {
+
+const ProjectCard:FC<ICard> = ({src}) => {
   return (
-    <div className='h-[250px] w-[373px] rounded-md'>
-        <img src={pic11} alt="" className="w-fit h-fit object-cover" />
-    </div>
+        <img src={src} alt="" className="h-[250px] w-[373px] object-cover rounded-xl hover:scale-x-[1.01]" />
   )
 }
 
