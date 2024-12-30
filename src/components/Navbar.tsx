@@ -33,7 +33,7 @@ const Navbar = () => {
 
   return (
     <div className='w-full relative'>
-        <div className="flex justify-between items-center py-3 px-2 border-b-2">
+        <div className="flex justify-between items-center py-3 px-2 border-b-2 fixed top-0 right-0 left-0 z-[999] bg-[#fff]">
         <div className="flex flex-1">
             <img src="/icons/logo-2.png" alt="" className="h-[50px] w-[160px]" />
         </div>
