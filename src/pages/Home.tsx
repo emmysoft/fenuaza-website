@@ -5,6 +5,7 @@ import About from '../sections/About';
 import Market from '../sections/Market';
 import Contact from '../sections/Contact';
 import Project from '../sections/Project';
+import Product from '../sections/Product'
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ const Home = () => {
         className='flex flex-col'>
       <Header/>
       <About/>
+      <Product/>
       <Market/>
       <Project/>
       <Contact/>

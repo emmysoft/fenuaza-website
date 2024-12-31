@@ -7,7 +7,12 @@ module.exports = {
     extend: {
       colors: {
         Blue: '#000080BD',
-        White: '#fff'
+        White: '#fff',
+        Bg: '#1E0D37',
+        Text: '#3B8C2E',
+        DBlue: '#000080',
+        DPText: 'rgb(60, 60, 60)',
+        DPBtn: 'rgb(236, 179, 2)'
       },
       animation: {
         flash: 'flash 2s ease-in-out forwards', // Animates once

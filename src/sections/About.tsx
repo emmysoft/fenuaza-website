@@ -1,5 +1,5 @@
 import React from 'react'
-import { paint, pic11,  } from '../constant/images'
+import { paint, pic  } from '../constant/images'
 
 
 
@@ -7,31 +7,47 @@ const About = () => {
   return (
     <div className="w-full bg-[#fafafa] ">
     <div className='flex flex-col h-full gap-5 max-w-[1200px] w-full mx-auto'>
-      <h1 className='text-center text-3xl font-bold mt-[50px] text-Blue'>About Us</h1>
+      <h1 className='text-center text-3xl font-bold mt-[50px] text-Blue uppercase hover:text-DPBtn'>About Fenuaza premium paints </h1>
 
-      <p className=' w-[80%] lg:w-[40%] text-center flex mx-auto text-Blue text-sm md:text-lg'>Fenuaza premium paints are formulated by fenuaza integrated services limited which was ﬁrst registered as a business name 2018 and later incorporated as limited liability company in 2023.</p>
+      <p className=' w-[80%] lg:w-[50%] text-center flex mx-auto text-Blue text-sm md:text-lg hover:text-DPText'>At Fenuaza premium paintsg, we pride ourselves on delivering superior quality and personalized painting services..</p>
 
       <div className="flex items-center gap-[100px] p-5 flex-col md:flex-row">
-        <div className="flex-1 flex justify-center">
-          <img src={paint} alt="" className="h-[269px] w-[270px] lg:w-[350px] rounded-lg" />
-        </div>
 
-        <div className="flex-1 w-[300px] flex flex-col bg-White p-3 rounded-lg h-[268px] gap-[50px] justify-center shadow-sm">
-          <h1 className='text-Blue text-3xl text-center font-semibold uppercase'>Our Mission</h1>
+        <div className="flex gap-4 lg:gap-[50px] items-center border-[1px] h-[360px]">
+          <div className="w-full flex justify-center items-center flex-1 h-full">
+              <img src={paint} alt="" className="h-full w-full object-cover" />
+          </div>
 
-          <p className='text-Blue text-[14px]'>We manufacture paint that are eco-friendly formulated to improve health of space users using non-toxic chemicals and plant based pigments and oils, this is achieved by our highly trained team that is dedicated to giving our customer safe and long lasting paints.</p>
-        </div>
-      </div>
+          <div className="w-full flex-1">
+            <div className="flex flex-col gap-[20px] p-4">
+                <h4 className='text-3xl'>Give your home the desired beauty</h4>
+                <p className='text-sm text-[#333] hover:text-DPBtn'>
+                Fenuaza Premium Paint Flexcoat is high quality,
+                  heavily textured, flexible masonry paint. Developed
+                  using advanced Optilife silicone technology, Fenuaza
+                  Premium Flexcoat paint offers outstanding
+                  breathability, is highly waterproof and will protect
+                  your building for up to 10years. Due to its extreme
+                  flexibility, this one coat masonry paint is the perfect
+                  solution for the renovation of areas that are uneven,
+                  badly weathered or that have developed small cracks
+                </p>
 
-      <div className="flex flex-col items-center gap-[100px] p-5 md:flex-row-reverse">
-        <div className="flex-1 flex justify-center">
-          <img src={pic11} alt="" className="h-[269px] w-[270px] lg:w-[350px] rounded-lg" />
-        </div>
+                <div className="flex gap-4 items-center">
+                    <div className="flex items-center text-White bg-Blue hover:bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
+                      <span className="text-2xl font-extrabold">Discover more</span>
+                    </div>
 
-        <div className="flex-1 w-[300px] flex flex-col bg-White p-4 rounded-lg h-[268px] gap-[50px] justify-center mx-auto shadow-sm">
-          <h1 className='text-Blue text-3xl text-center font-semibold uppercase'>Our Goal</h1>
+                    <div className="flex items-center text-White bg-DPText hover:bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
+                      <span className="text-2xl font-extrabold">Call Now!</span>
+                      <img src={pic} alt="" className="h-9 w-9 rounded-full" />
+                    </div>
 
-          <p className='text-Blue text-[14px]'>To become the most proﬁcient and proﬁtable paint manufacturing company in Africa and beyond.</p>
+                </div>
+
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -41,6 +57,3 @@ const About = () => {
 
 export default About;
 
-
-// #FCFDFE
-// #B8C2E200
