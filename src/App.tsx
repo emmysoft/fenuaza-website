@@ -4,6 +4,7 @@ import Product from './pages/Product';
 import Navbar from './components/Navbar';
 import { createBrowserRouter, Outlet, RouterProvider } from 'react-router-dom';
 import Footer from './sections/Footer';
+import AboutPage from './pages/AboutPage';
 
 
 const Layout = () => {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: '/products',
         element: <Product/>
+      },
+      {
+        path: '/about',
+        element: <AboutPage/>
       },
     ]
   }
