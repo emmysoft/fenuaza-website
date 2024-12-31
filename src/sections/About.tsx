@@ -7,9 +7,9 @@ const About = () => {
   return (
     <div className="w-full bg-[#fafafa] ">
     <div className='flex flex-col h-full gap-5 max-w-[1200px] w-full mx-auto'>
-      <h1 className='text-center text-3xl font-bold mt-[50px] text-Blue'>About Us</h1>
+      <h1 className='text-center text-3xl font-bold mt-[50px] text-Blue uppercase'>About Fenuaza premium paints </h1>
 
-      <p className=' w-[80%] lg:w-[40%] text-center flex mx-auto text-Blue text-sm md:text-lg'>Fenuaza premium paints are formulated by fenuaza integrated services limited which was ﬁrst registered as a business name 2018 and later incorporated as limited liability company in 2023.</p>
+      <p className=' w-[80%] lg:w-[50%] text-center flex mx-auto text-Blue text-sm md:text-lg'>At Fenuaza premium paintsg, we pride ourselves on delivering superior quality and personalized painting services..</p>
 
       <div className="flex items-center gap-[100px] p-5 flex-col md:flex-row">
         <div className="flex-1 flex justify-center">
