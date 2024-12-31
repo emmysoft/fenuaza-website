@@ -1,5 +1,5 @@
 import React from 'react';
-import { pic, header2, paint }from '../constant/images';
+import { pic }from '../constant/images';
 import { gallery2 } from '../constant/gallery';
 
 
@@ -18,17 +18,17 @@ const Header = () => {
 
 
         <div className="flex flex-col md:flex-row items-center gap-4">
-            <div className="flex items-center bg-White text-Blue gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
+            <div className="flex items-center bg-White text-Blue hover:bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
               <span className="text-2xl font-extrabold">Call Now!</span>
               <img src={pic} alt="" className="h-9 w-9 rounded-full" />
             </div>
 
-            <div className="flex items-center bg-DPBtn text-DPText gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
+            <div className="flex items-center bg-DPBtn text-DPText hover:bg-Bg hover:text-Text gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
               <span className="text-2xl font-extrabold">WhatsApp!</span>
               <img src={pic} alt="" className="h-9 w-9 rounded-full" />
             </div>
 
-        </div>
+        </div> 
         
         </div>
     </div>
