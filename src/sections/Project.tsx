@@ -36,9 +36,9 @@ var images = [
 
 const Project = () => {
   return (
-    <div className='text-[#3B8C2E] min-h-[100vh] w-full p-4 bg-[#1E0D37]'>
+    <div className='min-h-[100vh] w-full p-4 bg-[#fafafa]'>
         <div className="flex max-w-[1200px] w-full flex-col mx-auto mb-6">
-        <h1 className='flex mx-auto text-3xl font-bold my-[50px] text-[#A76AFF]'>Our Projects</h1>
+        <h1 className='flex mx-auto text-3xl font-bold my-[50px] text-[#A76AFF] uppercase'>Gallery</h1>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:justify-around gap-[24px] lg:gap-[16px] flex-wrap">
           {
@@ -54,3 +54,6 @@ const Project = () => {
 
 export default Project
 
+
+// bg-[#1E0D37]
+// ext-[#3B8C2E] 

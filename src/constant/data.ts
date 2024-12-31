@@ -11,18 +11,18 @@ export const marketData = [
         title: 'Market trends',
         body: 'Decorative ﬁnishes are the order of the day now, we have innovatively made special texture paints to accommate this new desires from consumers. We now use plant norganic pigments and oil that will promote the health of individuals.'
     },
-    {
-        title: 'Size and Growth Potential',
-        body: 'The global market size is around $180 Million to $200 Million and it is projected to grow to compound annual growth rate of app. 4-5%. Paint production is highly scalable, we plan to diversify into industry paints, and introduce new coating systems'
-    },
-    {
-        title: 'Customer Focus',
-        body: 'We prioritize client satisfaction, delivering personalized and attentive service that meets unique needs. By actively listening to client feedback, we continuously improve our services to exceed expectations.'
-    },
-    {
-        title: 'Excellence ',
-        body: 'We are dedicated to delivering exceptional quality and service. We take pride in our work and constantly improve our processes for maximum efficiency and effectiveness.'
-    },
+    // {
+    //     title: 'Size and Growth Potential',
+    //     body: 'The global market size is around $180 Million to $200 Million and it is projected to grow to compound annual growth rate of app. 4-5%. Paint production is highly scalable, we plan to diversify into industry paints, and introduce new coating systems'
+    // },
+    // {
+    //     title: 'Customer Focus',
+    //     body: 'We prioritize client satisfaction, delivering personalized and attentive service that meets unique needs. By actively listening to client feedback, we continuously improve our services to exceed expectations.'
+    // },
+    // {
+    //     title: 'Excellence ',
+    //     body: 'We are dedicated to delivering exceptional quality and service. We take pride in our work and constantly improve our processes for maximum efficiency and effectiveness.'
+    // },
 ]
 
 

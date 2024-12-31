@@ -6,7 +6,7 @@ import { contactData } from '../constant/data'
 
 const Contact = () => {
   return (
-    <div className='bg-[#fafafa] w-full min-h-[100vh]'>
+    <div className='bg-[#fafafa] w-full my-[30px]'>
         <div className="flex flex-col max-w-[1200px] mx-auto gap-6">
             <h1 className='flex mx-auto text-3xl font-bold my-[50px] text-Blue'>Contact Us</h1>
 
