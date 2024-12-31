@@ -12,7 +12,9 @@ module.exports = {
         Text: '#3B8C2E',
         DBlue: '#000080',
         DPText: 'rgb(60, 60, 60)',
-        DPBtn: 'rgb(236, 179, 2)'
+        DPBtn: 'rgb(236, 179, 2)',
+        DPyellow: '#ffbd4f',
+        DPGreen: 'rgb(0, 255, 255)'
       },
       animation: {
         flash: 'flash 2s ease-in-out forwards', // Animates once
