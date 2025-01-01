@@ -36,9 +36,9 @@ var images = [
 
 const Project = () => {
   return (
-    <div className='min-h-[100vh] w-full p-4 bg-[#fafafa]'>
+    <div className='min-h-[100vh] w-full p-4 bg-[#fafafa] my-4 lg:my-[10pc]'>
         <div className="flex max-w-[1200px] w-full flex-col mx-auto mb-6">
-        <h1 className='flex mx-auto text-3xl font-bold my-[50px] text-[#A76AFF] uppercase'>Gallery</h1>
+        <h1 className='flex mx-auto text-3xl font-bold my-[50px] text-Blue uppercase'>Gallery</h1>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:justify-around gap-[24px] lg:gap-[16px] flex-wrap">
           {

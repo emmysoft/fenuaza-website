@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Facebook, WhatsApp } from '@mui/icons-material';
 
 const Footer = () => {
   return (
@@ -15,6 +16,14 @@ const Footer = () => {
           <span>|</span>
           <span className='cursor-pointer'>Products </span>
          </div>
+         
+         <div className="flex items-center gap-5 lg:gap-7">
+          <Facebook style={{color: '#fff', cursor: 'pointer'}}/>
+          <WhatsApp style={{color: '#fff', cursor: 'pointer'}}/>
+         </div>
+
+         <span className=' text-White text-lg'>© 2024 Fenuaza Premium Paints – by Fenuaza Integrated Services </span>
+
       </div>
     </div>
   )
