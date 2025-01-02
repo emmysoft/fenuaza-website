@@ -18,7 +18,7 @@ import pic13 from '../assets/img/pic13.png'
 import pic14 from '../assets/img/pic14.png'
 import pic15 from '../assets/img/pic15.png'
 import cover1 from '../assets/img/cover1.png';
-// import cover3 from '../assets/img/cover3.png'
+import ceo from '../assets/img/ceo.png'
 import cover2 from '../assets/img/cover2.png';
 import paint from '../assets/img/paint.png';
 import header from '../assets/img/cover1.jpeg';
@@ -50,7 +50,7 @@ export {
     cover2,
     paint,
     header,
-    header2
-
+    header2,
+    ceo
     // cover3
 }

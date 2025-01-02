@@ -10,15 +10,15 @@ const About = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="w-full bg-[#fafafa] ">
+    <div className="w-full bg-[#fafafa] my-[50px]">
     <div className='flex flex-col h-full gap-5 max-w-[1200px] w-full mx-auto'>
-      <h1 className='text-center text-3xl font-bold mt-[50px] text-Blue uppercase hover:text-DPBtn'>About Fenuaza premium paints </h1>
+      <h1 className='text-center text-3xl font-bold text-Blue uppercase hover:text-DPBtn'>About Fenuaza premium paints </h1>
 
       <p className=' w-[80%] lg:w-[50%] text-center flex mx-auto text-Blue text-sm md:text-lg hover:text-DPText'>At Fenuaza premium paintsg, we pride ourselves on delivering superior quality and personalized painting services..</p>
 
       <div className="flex items-center gap-[100px] p-5 flex-col md:flex-row">
 
-        <div className="flex gap-4 lg:gap-[50px] items-center border-[1px] h-max md:first-line:h-[360px]">
+        <div className="flex gap-4 lg:gap-[50px] items-center border-[1px] border-Blue h-max md:first-line:h-[360px]">
           <div className="hidden  w-full md:flex justify-center items-center flex-1 h-full">
               <img src={gallery} alt="" className="h-full w-full object-cover" />
           </div>
