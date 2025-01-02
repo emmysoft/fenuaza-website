@@ -8,7 +8,10 @@ type ICard = {
 
 const ProjectCard:FC<ICard> = ({src}) => {
   return (
-        <img src={src} alt="" className="h-[250px] w-[373px] object-cover rounded-xl hover:scale-x-[1.01]" />
+    <div className="flex flex-col w-[373px] h-[280px] rounded-xl border-[2px] border-Blue hover:border-DPBtn hover:text-DPBtn bg-White">
+      <img src={src} alt="" className="w-full h-2/3 object-cover rounded-t-xl hover:scale-x-[1.01]" />
+      <p className='text-Blue hover:text-DPBtn text-center text-2xl font-semibold my-2'>INTERIOR RESIDENTIAL PAINTING </p>
+    </div>
   )
 }
 

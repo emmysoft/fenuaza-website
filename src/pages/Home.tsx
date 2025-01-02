@@ -6,6 +6,7 @@ import Market from '../sections/Market';
 import Contact from '../sections/Contact';
 import Project from '../sections/Project';
 import Product from '../sections/Product'
+import ChooseUs from '../sections/ChooseUs';
 
 const Home = () => {
 
@@ -15,6 +16,7 @@ const Home = () => {
       <Header/>
       <About/>
       <Product/>
+      <ChooseUs/>
       <Market/>
       <Project/>
       <Contact/>

@@ -9,6 +9,11 @@ import gallery7 from '../assets/gallery/gallery7.png';
 import gallery8 from '../assets/gallery/gallery8.png';
 import gallery9 from '../assets/gallery/gallery9.png';
 import gallery10 from '../assets/gallery/gallery10.png';
+import image from '../assets/paints/image.png';
+import paint from '../assets/paints/paint.png';
+import paint1 from '../assets/paints/paint1.png';
+import paint2 from '../assets/paints/paint2.png';
+import paint3 from '../assets/paints/paint3.png';
 
 
 
@@ -23,5 +28,10 @@ export {
     gallery6,
     gallery7,
     gallery8,
-    gallery9
+    gallery9,
+    paint,
+    paint1,
+    paint2,
+    paint3,
+    image
 }

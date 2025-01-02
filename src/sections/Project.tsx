@@ -6,31 +6,40 @@ import { pic12, pic11, pic13, pic10, pic7, pic4, pic9, pic6, pic8 } from '../con
 
 var images = [
   {
-    img1: pic11
+    img1: pic11,
+    text: ''
   },
   {
-    img1: pic12
+    img1: pic12,
+    text: ''
   },
   {
-    img1: pic13
+    img1: pic13,
+    text: ''
   },
   {
-    img1: pic10
+    img1: pic10,
+    text: ''
   },
   {
-    img1: pic7
+    img1: pic7,
+    text: ''
   },
   {
-    img1: pic4
+    img1: pic4,
+    text: ''
   },
   {
-    img1: pic9
+    img1: pic9,
+    text: ''
   },
   {
-    img1: pic6
+    img1: pic6,
+    text: ''
   },
   {
-    img1: pic8
+    img1: pic8,
+    text: ''
   },
 ]
 
@@ -38,7 +47,7 @@ const Project = () => {
   return (
     <div className='min-h-[100vh] w-full bg-[#fafafa]'>
         <div className="flex max-w-[1200px] w-full flex-col mx-auto my-4 lg:my-[50px] p-4">
-        <h1 className='flex mx-auto text-3xl font-bold my-[50px] text-Blue uppercase'>Gallery</h1>
+        <h1 className='flex mx-auto text-3xl font-bold my-[50px] text-Blue uppercase'>Gallery of Project</h1>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:justify-around gap-[24px] lg:gap-[16px] flex-wrap">
           {
