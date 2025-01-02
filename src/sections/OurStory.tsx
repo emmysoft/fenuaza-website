@@ -7,7 +7,7 @@ import { pic } from '../constant/images';
 const OurStory = () => {
   return (
     <div className='w-full my-[50px]'>
-        <div className="max-w-[1200px] w-full flex gap-3 md:gap-[40px] mx-auto items-center">
+        <div className="max-w-[1200px] w-full flex gap-3 md:gap-[40px] mx-auto items-center p-4">
             <div className="flex flex-col gap-4 flex-1">
                 <h2 className='text-Blue text-3xl md:text-[28px] font-[500] uppercase'>Company Profile</h2>
                 <p className='text-[#444] text-sm lg:text-lg'>Fenuaza Premium Paint are products formulated by fenuaza Integrated ser-
