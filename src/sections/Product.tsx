@@ -37,7 +37,7 @@ const productData = [
 
 const Product = () => {
   return (
-    <div className='flex w-full bg-[#fff] my-[50px] flex-col gap-4 mx-auto max-w-[1200px]'>
+    <div className='flex w-full bg-[#fff] my-[50px] flex-col gap-4 mx-auto max-w-[1200px]' id='product'>
       <h1 className='uppercase text-center  text-Blue hover:text-DPBtn text-4xl'>Fenuaza Premium Products</h1>
       <div className="flex items-end justify-end p-4">
         <Link to='/products' className='text-DPText underline cursor-pointer text-lg font-semibold hover:text-DPBtn'>View All</Link>

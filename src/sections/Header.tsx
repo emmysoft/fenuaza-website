@@ -1,6 +1,7 @@
 import React from 'react';
 import { pic }from '../constant/images';
 import { gallery2 } from '../constant/gallery';
+import { WhatsApp } from '@mui/icons-material';
 
 
 
@@ -25,7 +26,7 @@ const Header = () => {
 
             <div className="flex items-center bg-DPBtn text-DPText hover:bg-Bg hover:text-Text gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
               <span className="text-2xl font-extrabold">WhatsApp!</span>
-              <img src={pic} alt="" className="h-9 w-9 rounded-full" />
+              <WhatsApp style={{color: '#fff', cursor: 'pointer'}}/>
             </div>
 
         </div> 
@@ -37,9 +38,3 @@ const Header = () => {
 
 export default Header;
 
-
-
-        // {/* <div className="hidden flex-1 lg:flex justify-center relative mb-3 mt-5 ">
-        //   <img src={paint} alt="" className="rounded-xl h-[219px] w-[200px] lg:h-[319px] lg:w-[400px] shadow-2xl object-cover" />
-        //   <img src={header2} alt="" className="absolute rounded-xl h-[219px] w-[200px] lg:h-[319px] lg:w-[300px] translate-y-[40%] translate-x-[40%] object-cover" />
-        // </div> */}

@@ -7,7 +7,7 @@ import Input from '../components/Input';
 
 const Contact = () => {
   return (
-    <div className='bg-[#c8dac881] w-full h-full'>
+    <div className='bg-[#c8dac881] w-full h-full' id='contact'>
         <div className="flex flex-col max-w-[1200px] mx-auto gap-6 p-4  lg:px-8 lg:py-10">
             <h1 className='flex mx-auto text-3xl font-bold my-[50px] text-Blue uppercase'>Contact Us</h1>
 

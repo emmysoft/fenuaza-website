@@ -45,7 +45,7 @@ var images = [
 
 const Project = () => {
   return (
-    <div className='min-h-[100vh] w-full bg-[#fafafa]'>
+    <div className='min-h-[100vh] w-full bg-[#fafafa]' id='project'>
         <div className="flex max-w-[1200px] w-full flex-col mx-auto my-4 lg:my-[50px] p-4">
         <h1 className='flex mx-auto text-3xl font-bold my-[50px] text-Blue uppercase'>Gallery of Project</h1>
 

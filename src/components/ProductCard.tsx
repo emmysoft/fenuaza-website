@@ -19,7 +19,7 @@ const ProductCard:FC<IProduct> = ({img, price, product, size}) => {
               <img src={img} alt="" className="h-full w-full" />
           </div>
   
-          <div className="flex flex-col justify-center p-4">
+          <div className="flex flex-col justify-center p-4 text-Blue">
             <div className="flex items-center gap-2">
               <h4 className='text-lg font-semibold'>Product: </h4>
               <p className='font-[500] text-sm'>{product}</p>

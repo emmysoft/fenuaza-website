@@ -30,7 +30,7 @@ export const contactData = [
     {
         img: '/icons/mail.png',
         title: 'Mail Adress:',
-        text: 'Fenuazaintegratedserviceslimited@gmail.com'
+        text: 'fenuazaintegratedserviceslimited@gmail.com'
     },
     {
         img: '/icons/phone.png',
@@ -40,7 +40,7 @@ export const contactData = [
     {
         img: '/icons/map.png',
         title: 'Office Adress',
-        text: '1219 Rudolph  street , calumet city , 60409 , Illinois USA'
+        text: 'No 39, Oloko street, Apatapiti layout, off FUTA SOUTHGATE, AKURE, ONDO STATE.'
     },
 ]
 
