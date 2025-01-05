@@ -27,7 +27,10 @@ const About = () => {
             <div className="flex flex-col gap-[20px] p-4">
                 <h4 className='text-3xl'>Give your home the desired beauty</h4>
                 <p className='text-sm text-[#333] hover:text-DPBtn'>
-                Fenuaza Premium Paint Flexcoat is high quality,
+                At Fenuaza Premium Paint, we believe in transforming spaces with vibrant colors and lasting quality. Established with a passion for excellence, we have become a trusted name in the paint industry, offering top-tier products designed to inspire creativity and elegance in every stroke.
+                
+                Our journey began with a simple mission: to provide premium, eco-friendly paints that deliver exceptional coverage, durability, and beauty. From residential homes to large-scale commercial projects, our paints bring life and personality to walls, inside and out.
+                {/* Fenuaza Premium Paint Flexcoat is high quality,
                   heavily textured, flexible masonry paint. Developed
                   using advanced Optilife silicone technology, Fenuaza
                   Premium Flexcoat paint offers outstanding
@@ -35,7 +38,7 @@ const About = () => {
                   your building for up to 10years. Due to its extreme
                   flexibility, this one coat masonry paint is the perfect
                   solution for the renovation of areas that are uneven,
-                  badly weathered or that have developed small cracks
+                  badly weathered or that have developed small cracks */}
                 </p>
 
                 <div className="flex gap-4 items-center flex-col md:flex-row" onClick={() => navigate('/about')}>

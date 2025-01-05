@@ -8,10 +8,10 @@ import { paint, paint1, paint2, paint3 } from '../constant/gallery';
 
 const productData = [
   {
-      img: paint1,
-      product: 'Fenuaza premium satin',
-      size: '4L, 10L, 20L',
-      price: '20,000'
+    img: paint1,
+    product: 'Fenuaza premium satin',
+    size: '4L, 10L, 20L',
+    price: '20,000'
   },
   {
     img: paint2,

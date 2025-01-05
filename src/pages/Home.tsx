@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../sections/Header';
 import About from '../sections/About';
-import Market from '../sections/Market';
+// import Market from '../sections/Market';
 import Contact from '../sections/Contact';
 import Project from '../sections/Project';
 import Product from '../sections/Product'
@@ -18,7 +18,7 @@ const Home = () => {
       <About/>
       <Product/>
       <ChooseUs/>
-      <Market/>
+      {/* <Market/> */}
       <Project/>
       <Contact/>
     </div>
