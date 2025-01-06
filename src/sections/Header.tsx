@@ -19,15 +19,21 @@ const Header = () => {
 
 
         <div className="flex flex-col md:flex-row items-center gap-4">
-            <div className="flex items-center bg-White text-Blue hover:bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
+            <a 
+            href="tel:+2347038996525"
+            className="flex items-center bg-White text-Blue hover:bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
               <span className="text-2xl font-extrabold">Call Now!</span>
               <img src={pic} alt="" className="h-9 w-9 rounded-full" />
-            </div>
+            </a>
 
-            <div className="flex items-center bg-DPBtn text-DPText hover:bg-Bg hover:text-Text gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
+            <a 
+            href='https://wa.me/2347038996525'
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center bg-DPBtn text-DPText hover:bg-Bg hover:text-Text gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
               <span className="text-2xl font-extrabold">WhatsApp!</span>
               <WhatsApp style={{color: '#fff', cursor: 'pointer'}}/>
-            </div>
+            </a>
 
         </div> 
         

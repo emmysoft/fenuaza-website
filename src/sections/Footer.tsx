@@ -18,8 +18,20 @@ const Footer = () => {
          </div>
 
          <div className="flex items-center gap-5 lg:gap-7">
-          <Facebook style={{color: '#fff', cursor: 'pointer'}}/>
-          <WhatsApp style={{color: '#fff', cursor: 'pointer'}}/>
+          <a
+            href="https://www.facebook.com/akinwumijuoluwadunni.esther?mibextid=ZbWKwL"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Facebook style={{color: '#fff', cursor: 'pointer'}}/>
+          </a>
+          <a 
+          href="https://wa.me/+2347038996525" 
+          target="_blank" 
+          rel="noopener noreferrer"
+           className="flex items-center gap-3 text-White">
+            <WhatsApp style={{color: '#fff', cursor: 'pointer'}}/>
+           </a>
          </div>
 
          <div className="flex items-center flex-col gap-4 mt-6">
@@ -33,10 +45,14 @@ const Footer = () => {
               <span>+234 7038996525</span>
           </div>
 
-          <div className="flex items-center gap-3 text-White">
+          <a 
+          href="https://wa.me/+2347038996525" // Replace with your WhatsApp number (omit the '+' sign)
+          target="_blank" 
+          rel="noopener noreferrer"
+           className="flex items-center gap-3 text-White">
               <Phone/>
               <span>+234 9033767859</span>
-          </div>
+          </a>
          </div>
 
 

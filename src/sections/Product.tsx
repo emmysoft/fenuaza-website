@@ -2,32 +2,32 @@ import React from 'react'
 import ProductCard from '../components/ProductCard';
 import { Link } from 'react-router-dom';
 
-import { paint, paint1, paint2, paint3 } from '../constant/gallery';
+import { satin, matt, textcoat, flexcoat } from '../constant/products';
 
 
 
 const productData = [
   {
-    img: paint1,
-    product: 'Fenuaza premium satin',
+    img: satin,
+    product: 'FENUAZA  SATIN',
     size: '4L, 10L, 20L',
     price: '20,000'
   },
   {
-    img: paint2,
-    product: 'Fenuaza premium gloss',
+    img: textcoat,
+    product: 'TEXCOAT PAINT',
     size: '4L, 10L, 20L',
     price: '24,000'
 },
 {
-  img: paint3,
-  product: 'ECONOMIC EMULSION',
+  img: matt,
+  product: 'FENUAZA SMOOTH MATT',
   size: '4L, 10L, 20L',
   price: '20,000'
 },
 {
-  img: paint,
-  product: 'TEXTURED MATT',
+  img: flexcoat,
+  product: 'FENUAZA  FLEXCOAT',
   size: '4L, 10L, 20L',
   price: '20,000'
 },
