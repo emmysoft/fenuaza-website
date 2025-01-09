@@ -22,7 +22,8 @@ import ceo from '../assets/img/ceo.png'
 import cover2 from '../assets/img/cover2.png';
 import paint from '../assets/img/paint.png';
 import header from '../assets/img/cover1.jpeg';
-import header2 from '../assets/img/cover2.jpeg'
+import header2 from '../assets/img/cover2.jpeg';
+import ceo2 from '../assets/img/ceo2.png'
 
 
 
@@ -51,6 +52,7 @@ export {
     paint,
     header,
     header2,
-    ceo
+    ceo,
+    ceo2
     // cover3
 }

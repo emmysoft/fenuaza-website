@@ -1,17 +1,19 @@
 import React from 'react';
 
-import { ceo } from '../constant/images';
+import { ceo, ceo2 } from '../constant/images';
 
 const WhyChooseUs = () => {
   return (
     <div className='flex'>
-        <div className="flex max-w-[1200px] w-full mx-auto p-4">
-            <div className="flex flex-col items-center w-[30%] gap-6">
+        <div className="flex flex-col-reverse md:flex-row max-w-[1200px] w-full mx-auto p-4">
+            <div className="flex flex-col items-center w-full md:w-[30%] gap-6">
                 <h1 className='text-[38px] uppercase text-Blue'>Meet our CEO</h1>
                 <img src={ceo} alt="" className="object-cover rounded-full h-[140px] w-[150px]" />
+
+                <img src={ceo2} alt="" className="object-cover rounded-full h-[140px] w-[150px]" />
             </div>
 
-            <div className="flex flex-col w-[70%] gap-5">
+            <div className="flex flex-col w-full md:w-[70%] gap-5">
                 <h1 className='bg-Blue text-White text-2xl text-center p-2 rounded-md'>BRIEF PROFILE OF THE C.E.O.</h1>
                 <p className='flex'>
                     Mrs Oguntoye Oluwadunni Esther is the CEO of Fenuaza Premium Paints and integrated services. She is a graduate of Federal University of Technology Akure, where she studied Architecture. She is a seasoned Entrepreneur, a writer and a Business Consultant that specializes in building small prospective markets via her diverse marketing platforms. 

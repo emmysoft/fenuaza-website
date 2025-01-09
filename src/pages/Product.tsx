@@ -3,9 +3,9 @@ import AboutHeader from '../sections/AboutHeader';
 
 
 
-import { paint, paint1, paint2, paint3 } from '../constant/gallery';
-import ProductCard from '../components/ProductCard';
-import { flexcoat, matt, satin, textcoat } from '../constant/products';
+import { paint2 } from '../constant/gallery';
+import { acrylic, flexcoat, gloss, matt, satin, textcoat, vme } from '../constant/products';
+import ProductDetailsCard from '../components/ProductDetailsCard';
 
 
 
@@ -36,20 +36,26 @@ const productData = [
   price: '20,000'
 },
   {
-    img: paint,
-    product: 'TEXTURED MATT',
+    img: vme,
+    product: 'FENUAZA VME',
     size: '4L, 10L, 20L',
     price: '20,000'
   },
   {
-    img: paint,
-    product: 'TEXTURED MATT',
+    img: textcoat,
+    product: 'TEXTURED COAT',
     size: '4L, 10L, 20L',
     price: '20,000'
   },
   {
-    img: paint,
-    product: 'TEXTURED MATT',
+    img: acrylic,
+    product: 'ACRYLIC EMULSION',
+    size: '4L, 10L, 20L',
+    price: '20,000'
+  },
+  {
+    img: gloss,
+    product: 'GLOSS',
     size: '4L, 10L, 20L',
     price: '20,000'
   },
@@ -58,14 +64,19 @@ const productData = [
 
 const Product = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col bg-[lightgray]'>
       <AboutHeader title='Our Products' title1='Fenuaza Product' url={paint2}/>
-      <div className="max-w-[1200px] w-full flex flex-wrap mx-auto gap-8 justify-center md:justify-between items-center p-4 my-[50px] lg:my-[100px]">
-        {
-          productData.map((product) => (
-            <ProductCard img={product.img} size={product.size} price={product.price} product={product.product} />
-          ))
-        }
+      <div className="max-w-[1200px] w-full flex flex-wrap mx-auto gap-3 justify-center md:justify-between items-center p-4 my-[50px] lg:my-[100px]">
+
+        <ProductDetailsCard/>
+        <ProductDetailsCard/>
+        <ProductDetailsCard/>
+        <ProductDetailsCard/>
+        <ProductDetailsCard/>
+        <ProductDetailsCard/>
+        <ProductDetailsCard/>
+        <ProductDetailsCard/>
+
       </div>
     </div>
   )
