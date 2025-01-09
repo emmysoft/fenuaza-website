@@ -4,7 +4,7 @@ import { Facebook, WhatsApp, Phone } from '@mui/icons-material';
 const Footer = () => {
   return (
     <div className='bg-DBlue'>
-      <div className="flex flex-col gap-4 justify-center items-center h-full">
+      <div className="flex flex-col gap-4 justify-center items-center h-full p-4">
          <img src="/icons/log.png" alt="" className="h-[70px] w-[160px] mt-[20px]" />
          
          <div className="flex items-center gap-3 md:gap-7 lg:gap-10 text-White text-xm md:text-2xl">
@@ -35,7 +35,7 @@ const Footer = () => {
          </div>
 
          <div className="flex items-center flex-col gap-4 mt-6">
-           <p className='text-xs md:text-sm text-White'>Main Office - No 39, Oloko street, Apatapiti layout, off FUTA SOUTHGATE, AKURE, ONDO STATE.</p>
+           <p className='text-xs md:text-sm text-White text-center'>Main Office - No 39, Oloko street, Apatapiti layout, off FUTA SOUTHGATE, AKURE, ONDO STATE.</p>
            <p className='text-xs md:text-sm text-White'>fenuazaintegratedserviceslimited@gmail.com</p>
          </div>
 
@@ -56,7 +56,7 @@ const Footer = () => {
          </div>
 
 
-         <span className=' text-White text-sm my-4'>© 2024 Fenuaza Premium Paints – by Fenuaza Integrated Services </span>
+         <span className=' text-White text-sm my-4 text-center'>© 2025 Fenuaza Premium Paints – by Fenuaza Integrated Services </span>
 
       </div>
     </div>
