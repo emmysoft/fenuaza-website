@@ -13,51 +13,77 @@ const productData = [
   
   {
     img: satin,
-    product: 'FENUAZA  SATIN',
-    size: '4L, 10L, 20L',
-    price: '20,000'
+    product: 'Fenuaza" Satin',
+    desc: 'Readymix premium emulsion with a mild sheen that gives wall and ceiling wipable surface',
+    ul1: 'Excellent Opacity',
+    ul2: 'Wipable finish',
+    ul3: 'Quick drying',
+    desc2: 'Apply with brush and roller. Available in 4L and 20L',
+
   },
   {
     img: textcoat,
-    product: 'TEXCOAT PAINT',
-    size: '4L, 10L, 20L',
-    price: '24,000'
+    product: 'Fenuaa" Screeding Paint',
+    desc: 'Fenuaza Premium Paint SCREEDING is high quality heavily textured, flexible masonry paint.',
+    ul1: 'Highly Flexible and Highly breathable.',
+    ul2: 'Wipeable finish',
+    ul3: 'For interior screeding of walls and ceilings',
+    desc2: 'Apply with Roller or Trowel.',
+
 },
 {
   img: matt,
-  product: 'FENUAZA SMOOTH MATT',
-  size: '4L, 10L, 20L',
-  price: '20,000'
+  product: 'FENUAZA" MATT',
+  desc: 'Textured matt for walls, fecades and celings',
+  ul1: 'Allows the wall to breath',
+  ul2: 'Prevents the growth of fungi and algae',
+  ul3: 'Durable external finish in wet and costal areas',
+  desc2: 'Apply with brush and roller. Available in 20L',
 },
 {
   img: flexcoat,
-  product: 'FENUAZA  FLEXCOAT',
-  size: '4L, 10L, 20L',
-  price: '20,000'
+  product: 'FENUAZA" FLEXCOAT',
+  desc: 'Elastic water-proofing paint for exterior and interior use',
+  ul1: 'Offers total water impermability',
+  ul2: 'Protecting wall from rain',
+  ul3: 'Have high crack-bridging ability for surface that shows hairlines ',
+  desc2: 'Apply with brush and roller. 10-12 years durability. Available in 4L and 20L',
 },
   {
     img: vme,
-    product: 'FENUAZA VME',
-    size: '4L, 10L, 20L',
-    price: '20,000'
+    product: 'FENUAZA" VME',
+    desc: 'Great for walls, fecade and celing',
+    ul1: 'Resistant to scuffing and scrubbing',
+    ul2: 'Excellent covering power capacity',
+    ul3: 'Available in double and standard quality',
+    desc2: 'Apply with brush and roller. Available in 4L and 20L',
   },
   {
     img: textcoat,
-    product: 'TEXTURED COAT',
-    size: '4L, 10L, 20L',
-    price: '20,000'
+    product: 'Fenuaza" Textured Coat',
+    desc: 'A readymix textured paint for hiding cracks on walls and unleaven surfaces',
+    ul1: 'Resistant to fungal and algae growth',
+    ul2: 'Fire retardant properties for walls',
+    ul3: '',
+    desc2: 'Apply with roller. Available in 20L',
   },
   {
     img: acrylic,
     product: 'ACRYLIC EMULSION',
-    size: '4L, 10L, 20L',
-    price: '20,000'
+    desc: 'Economy based emulsion for walls and ceilings',
+    ul1: 'value for money',
+    ul2: 'Suitable for interior walls',
+    ul3: 'Good covering power',
+    desc2: 'Apply with brush and roller. Available in 4L and 20L',
   },
   {
     img: gloss,
     product: 'GLOSS',
-    size: '4L, 10L, 20L',
-    price: '20,000'
+    desc: '',
+    ul1: '',
+    ul2: '',
+    ul3: '',
+    desc2: '4L, 10L, 20L',
   },
 ]
 
