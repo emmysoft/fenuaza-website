@@ -1,20 +1,35 @@
 import React from 'react'
-import { vme } from '../constant/products';
 
-const ProductDetailsCard = () => {
+
+
+interface IProduct {
+    img: string;
+    product: string;
+    desc: string;
+    ul1: string;
+    ul2: string;
+    ul3: string
+    desc2: string
+    price: string
+}
+
+
+
+const ProductDetailsCard = ({product}: {product: IProduct}) => {
   return (
-    <div className='bg-White h-[340px] w-full md:w-[23%] my-8 flex flex-col p-3 items-center'>
-        <img src={vme} alt="" className="h-[160px] w-[85%] rounded-2xl" />
+    <div className='bg-White h-[370px] w-full md:w-[23%] my-8 flex flex-col p-3 items-center'>
+        <img src={product.img} alt="" className="h-[160px] w-[85%] rounded-2xl" />
 
-        <div className="flex flex-col w-[85%] mt-2 text-DBlue text-xs gap-2">
-            <h3 className='font-bold'>Fenuaza" satin</h3>
-            <p className='text-[9px]'>Readymix premium emulsion with a mild sheen that gives wall and ceiling wipable surface </p>
+        <div className="flex flex-col w-[85%] mt-2 text-DBlue text-xs gap-1.5">
+            <h3 className='font-bold'>{product.product}</h3>
+            <p className='text-[9px]'>{product.desc}</p>
             <ul className='list-disc list-inside text-[9px]'>
-                <li>Excellent Opacity</li>
-                <li>Wipable finish</li>
-                <li>Quick drying</li>
+                <li>{product.ul1}</li>
+                <li>{product.ul2}</li>
+                <li>{product.ul3}</li>
             </ul>
-            <span className="text-[8px]">Apply with brush and roller. Available in 4L and 20L </span>
+            <span className="text-[8px]">{product.desc2} </span>
+            <span className="text-[8px] font-[500]">Price: {product.price}</span>
         </div>
     </div>
   )

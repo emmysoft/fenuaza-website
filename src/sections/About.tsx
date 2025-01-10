@@ -1,7 +1,7 @@
 import React from 'react'
-import { pic  } from '../constant/images';
 import { gallery } from '../constant/gallery';
 import { useNavigate } from 'react-router-dom';
+import { Phone } from '@mui/icons-material';
 
 
 
@@ -30,15 +30,6 @@ const About = () => {
                 At Fenuaza Premium Paint, we believe in transforming spaces with vibrant colors and lasting quality. Established with a passion for excellence, we have become a trusted name in the paint industry, offering top-tier products designed to inspire creativity and elegance in every stroke.
                 
                 Our journey began with a simple mission: to provide premium, eco-friendly paints that deliver exceptional coverage, durability, and beauty. From residential homes to large-scale commercial projects, our paints bring life and personality to walls, inside and out.
-                {/* Fenuaza Premium Paint Flexcoat is high quality,
-                  heavily textured, flexible masonry paint. Developed
-                  using advanced Optilife silicone technology, Fenuaza
-                  Premium Flexcoat paint offers outstanding
-                  breathability, is highly waterproof and will protect
-                  your building for up to 10years. Due to its extreme
-                  flexibility, this one coat masonry paint is the perfect
-                  solution for the renovation of areas that are uneven,
-                  badly weathered or that have developed small cracks */}
                 </p>
 
                 <div className="flex gap-4 items-center flex-col md:flex-row" onClick={() => navigate('/about')}>
@@ -48,7 +39,7 @@ const About = () => {
 
                     <div className="flex items-center text-White bg-DPBtn hover:bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
                       <span className="text-2xl font-extrabold">Call Now!</span>
-                      <img src={pic} alt="" className="h-9 w-9 rounded-full" />
+                      <Phone style={{color: 'crimson'}} />
                     </div>
 
                 </div>

@@ -31,19 +31,10 @@ const ProductCard:FC<IProduct> = ({img, price, product, size}) => {
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center text-White hover:bg-DPBtn bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
-              <span className="text-2xl font-extrabold">WhatsApp!</span>
+              <span className="text-2xl font-extrabold">WhatsApp</span>
               <WhatsApp style={{color: '#fff', cursor: 'pointer'}}/>
             </a>
   
-            {/* <div className="flex items-center gap-2">
-              <h4 className='text-lg font-semibold'>Pack Size: </h4>
-              <p className='font-[500] text-sm'>{size}</p>
-            </div>
-  
-            <div className="flex items-center gap-2">
-              <h4 className='text-lg font-semibold'>Price: </h4>
-              <p className='font-[500] text-sm'>N{price}</p>
-            </div> */}
           </div>
       </div>
       

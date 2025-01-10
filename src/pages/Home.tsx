@@ -6,6 +6,7 @@ import Contact from '../sections/Contact';
 import Project from '../sections/Project';
 import Product from '../sections/Product'
 import ChooseUs from '../sections/ChooseUs';
+import Navbar from '../components/Navbar';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
  
     <div 
         className='flex flex-col'>
+        <Navbar isHome={true}/>
       <Header/>
       <About/>
       <Product/>

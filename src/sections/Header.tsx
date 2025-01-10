@@ -1,7 +1,6 @@
 import React from 'react';
-import { pic }from '../constant/images';
 import { gallery2 } from '../constant/gallery';
-import { WhatsApp } from '@mui/icons-material';
+import { WhatsApp, Phone } from '@mui/icons-material';
 
 
 
@@ -23,7 +22,7 @@ const Header = () => {
             href="tel:+2347038996525"
             className="flex items-center bg-White text-Blue hover:bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
               <span className="text-2xl font-extrabold">Call Now!</span>
-              <img src={pic} alt="" className="h-9 w-9 rounded-full" />
+              <Phone style={{color: 'crimson'}}/>
             </a>
 
             <a 
@@ -31,7 +30,7 @@ const Header = () => {
             target="_blank" 
             rel="noopener noreferrer"
             className="flex items-center bg-DPBtn text-DPText hover:bg-Bg hover:text-Text gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
-              <span className="text-2xl font-extrabold">WhatsApp!</span>
+              <span className="text-2xl font-extrabold">WhatsApp</span>
               <WhatsApp style={{color: '#fff', cursor: 'pointer'}}/>
             </a>
 

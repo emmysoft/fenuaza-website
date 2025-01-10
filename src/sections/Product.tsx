@@ -21,7 +21,7 @@ const productData = [
 },
 {
   img: matt,
-  product: 'FENUAZA SMOOTH MATT',
+  product: 'SMOOTH MATT',
   size: '4L, 10L, 20L',
   price: '20,000'
 },
