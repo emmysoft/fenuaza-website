@@ -1,6 +1,3 @@
-import home1 from '../assets/img/home1.png';
-import home2 from '../assets/img/home2.png';
-import home3 from '../assets/img/home3.png';
 import pic from '../assets/img/pic.png'
 import pic1 from '../assets/img/pic1.png'
 import pic2 from '../assets/img/pic2.png'
@@ -28,9 +25,6 @@ import ceo2 from '../assets/img/ceo2.png'
 
 
 export {
-    home1,
-    home3,
-    home2,
     pic,
     pic1,
     pic10,
@@ -54,5 +48,4 @@ export {
     header2,
     ceo,
     ceo2
-    // cover3
 }

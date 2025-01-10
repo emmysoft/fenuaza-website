@@ -1,45 +1,46 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard';
-import { pic12, pic11, pic13, pic10, pic7, pic4, pic9, pic6, pic8 } from '../constant/images';
+import { pic14 } from '../constant/images';
+import { gallery, gallery2, gallery3, gallery4, gallery5, gallery7, gallery8, gallery9 } from '../constant/gallery';
 
 
 
 var images = [
   {
-    img1: pic11,
-    text: ''
+    img1: gallery2,
+    text: 'Font Hall And Hotels'
   },
   {
-    img1: pic12,
-    text: ''
+    img1: gallery5,
+    text: 'Our Finished work'
   },
   {
-    img1: pic13,
-    text: ''
+    img1: gallery8,
+    text: 'St Thomas Anglican Church'
   },
   {
-    img1: pic10,
-    text: ''
+    img1: gallery4,
+    text: 'Fenuaza Premium Services'
   },
   {
-    img1: pic7,
-    text: ''
+    img1: gallery9,
+    text: 'Exterior Painting'
   },
   {
-    img1: pic4,
-    text: ''
+    img1: pic14,
+    text: 'Interior Residential Painting'
   },
   {
-    img1: pic9,
-    text: ''
+    img1: gallery3,
+    text: 'Fenuaza Premium Services'
   },
   {
-    img1: pic6,
-    text: ''
+    img1: gallery7,
+    text: 'Fenuaza Premium Services'
   },
   {
-    img1: pic8,
-    text: ''
+    img1: gallery,
+    text: 'Fenuaza Premium Services'
   },
 ]
 
@@ -47,12 +48,12 @@ const Project = () => {
   return (
     <div className='min-h-[100vh] w-full bg-[#fafafa]' id='project'>
         <div className="flex max-w-[1200px] w-full flex-col mx-auto my-4 lg:my-[50px] p-4">
-        <h1 className='flex mx-auto text-3xl font-bold my-[50px] text-Blue uppercase'>Gallery of Project</h1>
+        <h1 className='flex mx-auto text-3xl my-[50px] text-Blue font-[500]'>Gallery of Project</h1>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:justify-around gap-[24px] lg:gap-[16px] flex-wrap">
           {
             images.map((l) => (
-              <ProjectCard src={l.img1} key={l.img1}/>
+              <ProjectCard src={l.img1} key={l.img1} text={l.text}/>
             ))
           }
         </div>
@@ -64,5 +65,3 @@ const Project = () => {
 export default Project
 
 
-// bg-[#1E0D37]
-// ext-[#3B8C2E] 
