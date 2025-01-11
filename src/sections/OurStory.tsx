@@ -1,6 +1,7 @@
 import React from 'react';
 import { gallery10 } from '../constant/gallery';
-import { pic } from '../constant/images';
+import CallNow from '../components/buttons/CallNow'
+import { Phone, WhatsApp } from '@mui/icons-material';
 
 
 
@@ -24,15 +25,23 @@ const OurStory = () => {
 
 
         <div className="flex flex-col md:flex-row items-center gap-4">
-            <div className="flex items-center text-White bg-Blue hover:bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
-              <span className="text-2xl font-extrabold">Call Now!</span>
-              <img src={pic} alt="" className="h-9 w-9 rounded-full" />
-            </div>
 
-            <div className="flex items-center bg-DPBtn text-DPText hover:bg-Bg hover:text-Text gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
-              <span className="text-2xl font-extrabold">WhatsApp!</span>
-              <img src={pic} alt="" className="h-9 w-9 rounded-full" />
-            </div>
+          <CallNow text='Call Now' className='text-White bg-Blue hover:bg-DBlue hover:text-White'>
+            <a href="tel:+2347038996525">
+              <Phone style={{color: 'crimson',  cursor: 'pointer'}}  />
+            </a>
+          </CallNow>
+
+          <CallNow text='WhatsApp' className='bg-DPBtn text-DPText hover:bg-Bg hover:text-Text'> 
+            <a
+              href='https://wa.me/2347038996525'
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <WhatsApp style={{color: '#fff', cursor: 'pointer'}}  />
+            </a>
+          </CallNow>
+
 
         </div> 
             </div>

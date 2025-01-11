@@ -1,6 +1,9 @@
 import React from 'react';
-
+import CallNow from '../components/buttons/CallNow'
+import { Phone } from '@mui/icons-material';
 import { ceo, ceo2 } from '../constant/images';
+
+
 
 const WhyChooseUs = () => {
   return (
@@ -11,6 +14,12 @@ const WhyChooseUs = () => {
                 <img src={ceo} alt="" className="object-cover rounded-full h-[140px] w-[150px]" />
 
                 <img src={ceo2} alt="" className="object-cover rounded-full h-[140px] w-[150px]" />
+
+                <CallNow text='Contact Now' className='text-White bg-Blue hover:bg-DBlue hover:text-White'>
+                    <a href="tel:+2347038996525">
+                    <Phone style={{color: 'crimson',  cursor: 'pointer'}}  />
+                    </a>
+                </CallNow>
             </div>
 
             <div className="flex flex-col w-full md:w-[70%] gap-5">

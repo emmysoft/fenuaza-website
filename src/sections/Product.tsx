@@ -1,6 +1,6 @@
 import React from 'react'
 import ProductCard from '../components/ProductCard';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import { satin, matt, textcoat, flexcoat } from '../constant/products';
 
@@ -36,11 +36,17 @@ const productData = [
 
 
 const Product = () => {
+
+  const navigate = useNavigate();
+
   return (
     <div className='flex w-full bg-[#fff] my-[50px] flex-col gap-4 mx-auto max-w-[1200px]' id='product'>
       <h1 className='uppercase text-center  text-Blue hover:text-DPBtn text-4xl'>Fenuaza Premium Products</h1>
       <div className="flex items-end justify-end p-4">
-        <Link to='/products' className='text-DPText underline cursor-pointer text-lg font-semibold hover:text-DPBtn'>View All</Link>
+        <span onClick={() => {
+          navigate('/products')
+          window.scrollTo({ top: 0, behavior: 'smooth' })
+        }} className='text-DPText underline cursor-pointer text-lg font-semibold hover:text-DPBtn'>View All</span>
       </div>
       <div className="max-w-[1200px] w-full flex flex-wrap mx-auto gap-4 justify-center md:justify-between items-center p-4">
         {
