@@ -13,7 +13,7 @@ const ContactCard:FC<cType> = ({ img, title, text }) => {
         <img src={img} alt="" className="h-[40px] w-[40px]" />
 
         <div className="flex flex-col">
-            <h4 className='text-2xl font-bold'>{title}</h4>
+            <h4 className='text-xl font-[400]'>{title}</h4>
             <p className='text-xs'>{text}</p>
         </div>
     </div>

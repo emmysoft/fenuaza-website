@@ -2,7 +2,7 @@ import React from 'react'
 import { gallery } from '../constant/gallery';
 import { useNavigate } from 'react-router-dom';
 import { Phone } from '@mui/icons-material';
-
+import CallNow from '../components/buttons/CallNow'
 
 
 const About = () => {
@@ -14,7 +14,7 @@ const About = () => {
     <div className='flex flex-col h-full gap-5 max-w-[1200px] w-full mx-auto'>
       <h1 className='text-center text-3xl font-bold text-Blue uppercase hover:text-DPBtn' id='about'>About Fenuaza premium paints </h1>
 
-      <p className=' w-[80%] lg:w-[50%] text-center flex mx-auto text-Blue text-sm md:text-lg hover:text-DPText'>At Fenuaza premium paintsg, we pride ourselves on delivering superior quality and personalized painting services..</p>
+      <p className=' w-[80%] lg:w-[50%] text-center flex mx-auto text-Blue text-sm md:text-lg hover:text-DPText'>At Fenuaza Integrated services, we pride ourselves on delivering superior quality and personalized painting services..</p>
 
       <div className="flex items-center gap-[100px] p-5 flex-col md:flex-row">
 
@@ -34,13 +34,15 @@ const About = () => {
 
                 <div className="flex gap-4 items-center flex-col md:flex-row" onClick={() => navigate('/about')}>
                     <div className="flex items-center text-White bg-Blue hover:bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
-                      <span className="text-2xl font-extrabold">Discover more</span>
+                      <span className="text-lg font-[400]">Discover more</span>
                     </div>
 
-                    <div className="flex items-center text-White bg-DPBtn hover:bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
-                      <span className="text-2xl font-extrabold">Call Now!</span>
-                      <Phone style={{color: 'crimson'}} />
-                    </div>
+
+                    <CallNow text='Call Now' className='text-White bg-DPBtn hover:bg-DBlue hover:text-White'>
+                      <a href="tel:+2347038996525">
+                        <Phone style={{color: 'crimson',  cursor: 'pointer'}}  />
+                      </a>
+                    </CallNow>
 
                 </div>
 
