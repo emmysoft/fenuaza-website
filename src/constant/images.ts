@@ -20,7 +20,8 @@ import cover2 from '../assets/img/cover2.png';
 import paint from '../assets/img/paint.png';
 import header from '../assets/img/cover1.jpeg';
 import header2 from '../assets/img/cover2.jpeg';
-import ceo2 from '../assets/img/ceo2.png'
+import ceo2 from '../assets/img/ceo2.png';
+import coverr2 from '../assets/img/cover2.jpeg'
 
 
 
@@ -47,5 +48,6 @@ export {
     header,
     header2,
     ceo,
-    ceo2
+    ceo2,
+    coverr2
 }

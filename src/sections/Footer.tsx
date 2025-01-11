@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, WhatsApp, Phone } from '@mui/icons-material';
+import { Facebook, WhatsApp, Phone, Instagram } from '@mui/icons-material';
 
 const Footer = () => {
   return (
@@ -25,6 +25,13 @@ const Footer = () => {
           >
             <Facebook style={{color: '#fff', cursor: 'pointer'}}/>
           </a>
+          <a 
+          href="https://www.instagram.com/stories/fenuazapremiumpaints/3542120832690623522?utm_source=ig_story_item_share&igsh=NjZiM2M3MzIxNA==" 
+          target="_blank" 
+          rel="noopener noreferrer"
+           className="flex items-center gap-3 text-White">
+            <Instagram style={{color: '#fff', cursor: 'pointer'}}/>
+           </a>
           <a 
           href="https://wa.me/+2347038996525" 
           target="_blank" 
