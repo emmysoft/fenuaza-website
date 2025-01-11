@@ -31,7 +31,7 @@ const ProductCard:FC<IProduct> = ({img, price, product, size}) => {
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center text-White hover:bg-DPBtn bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
-              <span className="text-2xl font-extrabold">WhatsApp</span>
+              <span className="text-lg font-[400]">WhatsApp</span>
               <WhatsApp style={{color: '#fff', cursor: 'pointer'}}/>
             </a>
   

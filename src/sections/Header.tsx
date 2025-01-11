@@ -1,6 +1,7 @@
 import React from 'react';
 import { gallery2 } from '../constant/gallery';
 import { WhatsApp, Phone } from '@mui/icons-material';
+import CallNow from '../components/buttons/CallNow'
 
 
 
@@ -18,21 +19,22 @@ const Header = () => {
 
 
         <div className="flex flex-col md:flex-row items-center gap-4">
-            <a 
-            href="tel:+2347038996525"
-            className="flex items-center bg-White text-Blue hover:bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
-              <span className="text-2xl font-extrabold">Call Now!</span>
-              <Phone style={{color: 'crimson'}}/>
+          <CallNow text='Call Now' className='bg-White text-Blue hover:bg-DBlue hover:text-White '>
+          <a href="tel:+2347038996525">
+              <Phone style={{color: 'crimson',  cursor: 'pointer'}}  />
             </a>
+          </CallNow>
 
-            <a 
-            href='https://wa.me/2347038996525'
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="flex items-center bg-DPBtn text-DPText hover:bg-Bg hover:text-Text gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
-              <span className="text-2xl font-extrabold">WhatsApp</span>
-              <WhatsApp style={{color: '#fff', cursor: 'pointer'}}/>
+
+          <CallNow text='WhatsApp' className='bg-DPBtn text-DPText hover:bg-Bg hover:text-Text'> 
+            <a
+              href='https://wa.me/2347038996525'
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <WhatsApp style={{color: '#fff', cursor: 'pointer'}}  />
             </a>
+          </CallNow>
 
         </div> 
         
