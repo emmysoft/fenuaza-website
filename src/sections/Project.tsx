@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from '../components/ProjectCard';
-import { pic14 } from '../constant/images';
+import { coverr2, pic13, pic14, pic3 } from '../constant/images';
 import { gallery, gallery2, gallery3, gallery4, gallery5, gallery7, gallery8, gallery9 } from '../constant/gallery';
 
 
@@ -8,7 +8,7 @@ import { gallery, gallery2, gallery3, gallery4, gallery5, gallery7, gallery8, ga
 var images = [
   {
     img1: gallery2,
-    text: 'Font Hall And Hotels'
+    text: 'Hotel Painting'
   },
   {
     img1: gallery5,
@@ -16,7 +16,7 @@ var images = [
   },
   {
     img1: gallery8,
-    text: 'St Thomas Anglican Church'
+    text: 'Interior Painting'
   },
   {
     img1: gallery4,
@@ -41,6 +41,18 @@ var images = [
   {
     img1: gallery,
     text: 'Fenuaza Premium Services'
+  },
+  {
+    img1: coverr2,
+    text: 'Fenuaza Premium Services'
+  },
+  {
+    img1: pic3,
+    text: 'Interior Residential Painting'
+  },
+  {
+    img1: pic13,
+    text: 'Interior Residential Painting'
   },
 ]
 
