@@ -74,11 +74,15 @@ const Navbar = ({isHome, url, url2, text1, text2}: NType) => {
             </div>
             </> : 
             <div className="flex items-center gap-3">
-                <Link to={url} className="py-2 px-4 cursor-pointer bg-DBlue text-White rounded-lg font-[500]">
+                <Link to={url} 
+                    className="py-2 px-4 cursor-pointer bg-DBlue text-White rounded-lg font-[500]" 
+                    onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                    {text1}
                 </Link>
 
-                <Link to={url2} className="py-2 px-4 cursor-pointer bg-DBlue text-White rounded-lg font-[500]">
+                <Link to={url2} 
+                    className="py-2 px-4 cursor-pointer bg-DBlue text-White rounded-lg font-[500]" 
+                    onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                     {text2}
                 </Link>
             </div>

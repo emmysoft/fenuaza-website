@@ -32,7 +32,10 @@ const About = () => {
                 Our journey began with a simple mission: to provide premium, eco-friendly paints that deliver exceptional coverage, durability, and beauty. From residential homes to large-scale commercial projects, our paints bring life and personality to walls, inside and out.
                 </p>
 
-                <div className="flex gap-4 items-center flex-col md:flex-row" onClick={() => navigate('/about')}>
+                <div className="flex gap-4 items-center flex-col md:flex-row" onClick={() => { 
+                  navigate('/about')
+                  window.scrollTo({top: 0, behavior: 'smooth'})
+                  }}>
                     <div className="flex items-center text-White bg-Blue hover:bg-DBlue hover:text-White gap-2 py-3 px-6 rounded-md shadow-sm cursor-pointer justify-start w-max">
                       <span className="text-lg font-[400]">Discover more</span>
                     </div>

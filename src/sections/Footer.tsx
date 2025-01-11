@@ -58,7 +58,7 @@ const Footer = () => {
           rel="noopener noreferrer"
            className="flex items-center gap-3 text-White">
               <Phone/>
-              <span>+234 9033767859</span>
+              <span>+234 8172960820</span>
           </a>
          </div>
 
